@@ -1,0 +1,8 @@
+# Entornos virtuales y cachés
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
