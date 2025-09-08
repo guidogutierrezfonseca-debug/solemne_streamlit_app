@@ -3,7 +3,17 @@ import pandas as pd
 import requests
 import matplotlib.pyplot as plt
 
-st.set_page_config(page_title="Solemne II", layout="wide")
+st.set_page_config(
+    page_title="Análisis de datos públicos",
+    layout="wide",
+    initial_sidebar_state="expanded",  # sidebar siempre visible
+)
+
+st.markdown("""
+<style>
+[data-testid="collapsedControl"] {display: none;}
+</style>
+""", unsafe_allow_html=True)
 
 st.markdown(
     """
